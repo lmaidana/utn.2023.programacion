@@ -5,7 +5,15 @@
     <TargetFramework>net7.0</TargetFramework>
     <RootNamespace>utn._2023.programacion</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ConsoleTables" Version="2.4.2" />
+    <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
 
 </Project>
